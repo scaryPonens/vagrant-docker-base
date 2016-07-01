@@ -10,6 +10,7 @@ Prerequisites
 Steps
 ---
 **Step 0.** Install [vagrant proxy conf plugin](https://github.com/tmatilai/vagrant-proxyconf) if you are behind a proxy.
+
 **Step 1.** Clone project:
 ```bash
 > # choose desired location to place vagrant box home
