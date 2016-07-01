@@ -9,19 +9,19 @@ Prerequisites
 
 Steps
 ---
-### 0. Install [vagrant proxy conf plugin](https://github.com/tmatilai/vagrant-proxyconf) if you are behind a proxy.
-### 1. Clone project:
+**Step 0.** Install [vagrant proxy conf plugin](https://github.com/tmatilai/vagrant-proxyconf) if you are behind a proxy.
+**Step 1.** Clone project:
 ```bash
 > # choose desired location to place vagrant box home
 > cd ~/Lab && git clone https://github.com/scaryPonens/vagrant-docker-base.git .
 > vagrant up
 > # refill coffee mug
 ```
-### 2. Reload Vagrant box, the docker installation requires a restart.
+**Step 2.** Reload Vagrant box, the docker installation requires a restart.
 ```bash
 > vagrant reload && vagrant ssh
 ```
-### 3. Verify docker installed correctly.
+**Step 3.** Verify docker installed correctly.
 ```bash
 > docker run hello-world
 > # ...
